@@ -5,7 +5,7 @@ spring:
   # dubbo
   dubbo:
     application.name: management-consumer
-    registry.address: zookeeper://192.168.88.128:2181
+    registry.address: zookeeper://192.168.91.128:2181
     protocol:
       name: dubbo
       port: 20880

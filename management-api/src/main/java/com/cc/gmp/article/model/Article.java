@@ -1,4 +1,4 @@
-package com.cc.gmp.article.entity;
+package com.cc.gmp.article.model;
 
 import com.cc.gmp.common.Entity;
 import lombok.Getter;

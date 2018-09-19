@@ -1,6 +1,6 @@
 package com.cc.gmp.article.service;
 
-import com.cc.gmp.article.entity.Article;
+import com.cc.gmp.article.model.Article;
 
 import java.util.List;
 

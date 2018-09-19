@@ -21,7 +21,7 @@
     </settings>
 
     <typeAliases>
-        <typeAlias type="com.cc.gmp.article.entity.Article" alias="Article" />
+        <typeAlias type="com.cc.gmp.article.model.Article" alias="Article" />
         <!--<package name="" />-->
     </typeAliases>
 

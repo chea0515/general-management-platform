@@ -5,7 +5,7 @@
 
 <generatorConfiguration>
 
-    <classPathEntry  location="D:/documents/mavenRepository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar"/>
+    <classPathEntry  location="D:/documents/mavenRepository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar"/>
 
     <context id="DB2Tables" targetRuntime="MyBatis3">
         <commentGenerator>
@@ -23,21 +23,21 @@
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
         <!-- 生成模型的包名和位置-->
-        <javaModelGenerator targetPackage="com.cc.bms.article.model" targetProject="src/main/java">
+        <javaModelGenerator targetPackage="com.cc.gmp.photo.model" targetProject="src/main/java">
             <property name="enableSubPackages" value="true"/>
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
         <!-- 生成映射文件的包名和位置-->
-        <sqlMapGenerator targetPackage="com.cc.bms.mapper.article" targetProject="src/main/resources">
+        <sqlMapGenerator targetPackage="com.cc.gmp.mapper.photo" targetProject="src/main/resources">
             <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
         <!-- 生成DAO的包名和位置-->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.cc.bms.article.dao" targetProject="src/main/java">
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.cc.gmp.photo.dao" targetProject="src/main/java">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
         <!-- 要生成的表 tableName是数据库中的表名或视图名 domainObjectName是实体类名-->
-        <table tableName="t_article"
-               domainObjectName="Article"
+        <table tableName="t_photo"
+               domainObjectName="photo"
                enableCountByExample="false"
                enableUpdateByExample="false"
                enableDeleteByExample="false"

@@ -11,7 +11,7 @@ spring:
   # dubbo
   dubbo:
     application.name: management-provider
-    registry.address: zookeeper://192.168.88.128:2181
+    registry.address: zookeeper://192.168.91.128:2181
     protocol:
       name: dubbo
       port: 20880
@@ -24,7 +24,7 @@ spring:
 mybatis:
   configLocation: classpath:/mybatis-config.xml
   mapperLocations: classpath:/com/cc/gmp/mapper/**/*DAO.xml
-  typeAliasesPackage: com.cc.gmp.*.entity
+  typeAliasesPackage: com.cc.gmp.*.model
 
 # pagehelper
 pagehelper:

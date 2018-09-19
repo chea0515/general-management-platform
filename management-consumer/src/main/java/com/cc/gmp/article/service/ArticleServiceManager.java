@@ -1,7 +1,7 @@
 package com.cc.gmp.article.service;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.cc.gmp.article.entity.Article;
+import com.cc.gmp.article.model.Article;
 import com.cc.gmp.article.vo.ArticleVO;
 import com.cc.gmp.common.ManagementException;
 import lombok.extern.slf4j.Slf4j;

@@ -2,7 +2,7 @@ package com.cc.gmp.article.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.cc.gmp.article.dao.ArticleDAO;
-import com.cc.gmp.article.entity.Article;
+import com.cc.gmp.article.model.Article;
 import com.cc.gmp.article.service.ArticleService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
@@ -20,7 +20,7 @@ public class ArticleServiceImpl implements ArticleService {
 
     @Override
     public List<Article> getAllArticleList() {
-        List<Article> articleList = articleDAO.select(null);
+        List<Article> articleList = articleDAO.selectList(null);
         return articleList;
     }
 

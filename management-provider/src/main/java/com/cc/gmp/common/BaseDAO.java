@@ -1,5 +1,7 @@
 package com.cc.gmp.common;
 
+import java.util.ArrayList;
+
 public interface BaseDAO {
     /**
      * get bean .
@@ -8,6 +10,14 @@ public interface BaseDAO {
      * @return T
      */
     <T, V> T select(V v);
+
+    /**
+     *
+     * @param <T> return params.
+     * @param <V> input params.
+     * @return ArrayList<T>
+     */
+    <T, V> ArrayList<T> selectList(V v);
 
     /**
      * count bean total num.
