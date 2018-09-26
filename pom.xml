@@ -10,7 +10,7 @@
         <version>1.5.9.RELEASE</version>
     </parent>
 
-    <groupId>com.cc</groupId>
+    <groupId>com.cc.gmp</groupId>
     <artifactId>general-management-platform</artifactId>
     <version>${management.version}</version>
     <packaging>pom</packaging>
@@ -30,7 +30,7 @@
         <dependencies>
 
             <dependency>
-                <groupId>com.cc</groupId>
+                <groupId>com.cc.gmp</groupId>
                 <artifactId>management-api</artifactId>
                 <version>${management.version}</version>
             </dependency>

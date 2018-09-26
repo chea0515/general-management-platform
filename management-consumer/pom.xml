@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>general-management-platform</artifactId>
-        <groupId>com.cc</groupId>
+        <groupId>com.cc.gmp</groupId>
         <version>${management.version}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -13,7 +13,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.cc</groupId>
+            <groupId>com.cc.gmp</groupId>
             <artifactId>management-api</artifactId>
         </dependency>
         <dependency>

@@ -6,7 +6,7 @@
 
     <parent>
         <artifactId>general-management-platform</artifactId>
-        <groupId>com.cc</groupId>
+        <groupId>com.cc.gmp</groupId>
         <version>${management.version}</version>
     </parent>
 
@@ -14,7 +14,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.cc</groupId>
+            <groupId>com.cc.gmp</groupId>
             <artifactId>management-api</artifactId>
         </dependency>
 
