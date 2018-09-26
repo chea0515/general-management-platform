@@ -1,4 +1,4 @@
-package com.cc.gmp.article.vo;
+package com.cc.gmp.consumer.article.vo;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;

@@ -1,11 +1,11 @@
-package com.cc.gmp.article.controller;
+package com.cc.gmp.consumer.article.controller;
 
-import com.cc.gmp.article.service.ArticleServiceManager;
-import com.cc.gmp.article.vo.ArticleListRequest;
-import com.cc.gmp.article.vo.ArticleVO;
-import com.cc.gmp.common.ManagementException;
-import com.cc.util.web.Result;
-import com.cc.util.web.ResultPage;
+import com.cc.gmp.consumer.article.service.ArticleServiceManager;
+import com.cc.gmp.consumer.article.vo.ArticleListRequest;
+import com.cc.gmp.consumer.article.vo.ArticleVO;
+import com.cc.gmp.consumer.common.ManagementException;
+import com.cc.util.Result;
+import com.cc.util.ResultPage;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -17,7 +17,7 @@ import java.util.List;
 
 @Slf4j
 @RestController
-@RequestMapping(value = { "/gmp/api/article" })
+@RequestMapping(value = { "/api/gmp/article" })
 public class ArticleController {
 
     @Autowired

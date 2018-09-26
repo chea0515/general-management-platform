@@ -1,4 +1,4 @@
-package com.cc.gmp;
+package com.cc.gmp.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

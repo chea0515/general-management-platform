@@ -1,6 +1,6 @@
-package com.cc.gmp.common;
+package com.cc.gmp.consumer.common;
 
-import com.cc.util.web.ResultError;
+import com.cc.util.ResultError;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.ControllerAdvice;

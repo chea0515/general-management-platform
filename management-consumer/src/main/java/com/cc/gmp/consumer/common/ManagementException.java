@@ -1,4 +1,4 @@
-package com.cc.gmp.common;
+package com.cc.gmp.consumer.common;
 
 public class ManagementException extends RuntimeException {
     private static final long serialVersionUID = -1425976313294834867L;

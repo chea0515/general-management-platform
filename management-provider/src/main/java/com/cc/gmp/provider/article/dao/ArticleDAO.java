@@ -1,6 +1,6 @@
-package com.cc.gmp.article.dao;
+package com.cc.gmp.provider.article.dao;
 
-import com.cc.gmp.common.BaseDAO;
+import com.cc.gmp.provider.common.BaseDAO;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper

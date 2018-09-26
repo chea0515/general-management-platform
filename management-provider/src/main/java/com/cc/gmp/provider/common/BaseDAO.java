@@ -1,4 +1,4 @@
-package com.cc.gmp.common;
+package com.cc.gmp.provider.common;
 
 import java.util.ArrayList;
 

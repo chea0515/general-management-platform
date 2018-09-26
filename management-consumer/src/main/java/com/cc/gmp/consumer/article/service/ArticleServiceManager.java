@@ -1,9 +1,10 @@
-package com.cc.gmp.article.service;
+package com.cc.gmp.consumer.article.service;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.cc.gmp.article.model.Article;
-import com.cc.gmp.article.vo.ArticleVO;
-import com.cc.gmp.common.ManagementException;
+import com.cc.gmp.article.service.ArticleService;
+import com.cc.gmp.consumer.article.vo.ArticleVO;
+import com.cc.gmp.consumer.common.ManagementException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

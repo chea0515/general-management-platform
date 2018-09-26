@@ -1,7 +1,7 @@
-package com.cc.gmp.article.service.impl;
+package com.cc.gmp.provider.article.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.cc.gmp.article.dao.ArticleDAO;
+import com.cc.gmp.provider.article.dao.ArticleDAO;
 import com.cc.gmp.article.model.Article;
 import com.cc.gmp.article.service.ArticleService;
 import com.github.pagehelper.PageHelper;
